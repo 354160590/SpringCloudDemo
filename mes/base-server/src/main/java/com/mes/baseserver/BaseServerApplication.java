@@ -20,8 +20,10 @@ public class BaseServerApplication {
 	}
 	@Value("${server.port}")
 	String port;
+	@Value("${foo}")
+	String foo;
 	@RequestMapping("/hi")
 	public String home(@RequestParam String name) {
-		return "hi "+name+",i am from port:" +port+" base-server";
+		return "hi "+name+",i am from port:" +port+" base-server"+"mqInfo"+foo;
 	}
 }
