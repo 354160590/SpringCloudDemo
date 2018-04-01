@@ -20,6 +20,8 @@
       <module name="eureka" target="1.8" />
       <module name="login-server" target="1.8" />
       <module name="mes" target="1.5" />
+      <module name="test" target="1.8" />
+      <module name="testjpa" target="1.8" />
       <module name="zuul-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>

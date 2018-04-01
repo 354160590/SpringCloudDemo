@@ -3,7 +3,6 @@ package com.mes.loginserver.entity;
 
 import com.alibaba.fastjson.annotation.JSONField;
 
-import java.io.Serializable;
 import java.util.Date;
 
 /**
@@ -14,22 +13,19 @@ import java.util.Date;
  * @create    2016年1月12日
  */
 public class Student {
-
-
-    private int id;
+    private Integer id;
     private String name;
     private String sumScore;
     private String avgScore;
-    private int age;
+    private Integer age;
     @JSONField(format = "yyyy-MM-dd")
     private Date birthday;
 
-
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -57,11 +53,11 @@ public class Student {
         this.avgScore = avgScore;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
-    public void setAge(int age) {
+    public void setAge(Integer age) {
         this.age = age;
     }
 

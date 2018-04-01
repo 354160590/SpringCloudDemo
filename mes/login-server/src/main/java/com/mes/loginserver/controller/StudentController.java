@@ -1,6 +1,4 @@
 package com.mes.loginserver.controller;
-
-
 import com.mes.loginserver.entity.Student;
 import com.mes.loginserver.service.StudentService;
 import org.slf4j.Logger;
